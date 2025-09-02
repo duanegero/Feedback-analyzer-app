@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import sendFormData from "../../helpers/sendFormData";
 import navigateTo from "../../helpers/navigateTo";
+import Chatbot from "../chat bot/Chat-bot";
 
 import { IoHomeOutline } from "react-icons/io5";
 
@@ -90,6 +91,9 @@ export default function FeedbackForm() {
               </button>
             </div>
           </form>
+        </div>
+        <div className="fixed bottom-6 right-6">
+          <Chatbot />
         </div>
       </div>
     </div>
